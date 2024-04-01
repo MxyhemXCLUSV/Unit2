@@ -1,0 +1,37 @@
+# Unit2
+Homework
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package task.pkg1;
+
+import java.util.Scanner;
+
+/**
+ * STUDENT NAME:    A MARMAN
+ * STUDENT NUMBER:  ST10080181
+ * @author Angelo Marman
+ * DATE OF SUBMISSION: 01/04/24
+ */
+public class Task1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      
+        
+                Scanner keyboard = new Scanner (System.in);
+                
+        System.out.print ( "Enter your firstName." + "\t" );
+        String firstName = keyboard.nextLine ();
+        
+        System.out.print ("Enter your lastName." + "\t" );
+        String lastName = keyboard.nextLine ();
+        
+        String fullName = (firstName + '\t' + lastName );
+        System.out.print ( fullName );
+        
+    }
+}
