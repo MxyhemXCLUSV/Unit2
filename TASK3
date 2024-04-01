@@ -1,0 +1,32 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package task3;
+
+import java.util.Scanner;
+
+/**
+ *Student Name:   A Marman
+ *Student Number: ST10080181
+ * @author Angelo Marman
+ * DATE OF SUBMISSION: 01/04/24
+ */
+public class Mileage {
+             public static void main(String[] args){
+//                   THIS PROGRAM CALCULATES MILES DRIVEN PER GALLON                               {
+        Scanner keyboard = new Scanner (System.in);
+        
+        System.out.print ("How many miles have you driven?");
+        Double miles = keyboard.nextDouble ();
+        System.out.print (  miles + "Miles driven" + "\n"); 
+             
+        System.out.print ("How many gallons have you used in total?");
+        Double gallons = keyboard.nextDouble();
+            Double milespergallon = (gallons / miles);
+            System.out.print ("YOU DROVE" + "  " + milespergallon + "mpg" );
+            
+        
+// add your declaration and code here
+}
+}
