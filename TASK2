@@ -1,0 +1,34 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package task2;
+
+/**
+ * Student Name:    A Marman
+ * Student Number:  ST10080181
+ * @author Angelo Marman
+ * DATE OF SUBMISSION: 01/04/24
+ */
+import java.util.Scanner;
+public class TASK2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner (System.in);
+        System.out.print ("Enter your firstname." + "\t");
+        String firstname = keyboard.nextLine ();
+        System.out.print ("Enter you lastname." + "\t");
+        String lastname = keyboard.nextLine ();
+        String fullname = firstname +""+ lastname;
+        char firstinitial = firstname.charAt(0);
+        System.out.print ("Your first initial is" + "\t" + firstinitial);
+        fullname = fullname.toUpperCase();
+        
+        
+        // TODO code application logic here
+    }
+    
+}
